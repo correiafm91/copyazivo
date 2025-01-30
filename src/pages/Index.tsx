@@ -18,8 +18,8 @@ const Index = () => {
           
           <SocialCard
             type="instagram"
-            title="Livefolio"
-            description="Visite a minha empresa, a Livefolio. Se interessou por nossos serviços? Contrate a gente pelo nosso site"
+            title="Hypnos"
+            description="Visite a minha empresa, a Hypnos. Se interessou por nossos serviços? Contrate a gente pelo nosso site"
             link="https://www.instagram.com/hypnos.copy/"
             delay={0.4}
           />
