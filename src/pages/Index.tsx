@@ -12,7 +12,7 @@ const Index = () => {
             type="youtube"
             title="Canal no YouTube"
             description="Descubra diversos conteúdos gratutitos para expandir sua mente"
-            link="https://youtube.com/@udevzera?si=jz25LTbAsdNdVKLR"
+            link="https://youtube.com/@copyazivo?si=jXXvb9VJR6jmQvdY"
             delay={0.3}
           />
           
@@ -20,7 +20,7 @@ const Index = () => {
             type="instagram"
             title="Livefolio"
             description="Visite a minha empresa, a Livefolio. Se interessou por nossos serviços? Contrate a gente pelo nosso site"
-            link="https://www.instagram.com/livefolio/"
+            link="https://www.instagram.com/hypnos.copy/"
             delay={0.4}
           />
           
