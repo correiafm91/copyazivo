@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 
 const WelcomeSection = () => {
@@ -11,14 +12,6 @@ const WelcomeSection = () => {
       >
         Bem vindo.
       </motion.h1>
-      <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, delay: 0.2 }}
-        className="text-xl md:text-2xl text-gray-300"
-      >
-        Tudo sobre mim está aqui
-      </motion.p>
     </div>
   );
 };

@@ -1,6 +1,7 @@
 
 import WelcomeSection from "@/components/WelcomeSection";
 import SocialCard from "@/components/SocialCard";
+import BooksDialog from "@/components/BooksDialog";
 
 const Index = () => {
   return (
@@ -32,6 +33,14 @@ const Index = () => {
             link="contaparanegocios30@gmail.com"
             delay={0.5}
           />
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+          >
+            <BooksDialog />
+          </motion.div>
         </div>
       </div>
     </div>
