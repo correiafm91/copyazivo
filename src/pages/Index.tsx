@@ -1,3 +1,4 @@
+
 import WelcomeSection from "@/components/WelcomeSection";
 import SocialCard from "@/components/SocialCard";
 
@@ -18,9 +19,9 @@ const Index = () => {
           
           <SocialCard
             type="instagram"
-            title="Hypnos"
-            description="Visite a minha empresa, a Hypnos. Se interessou por nossos serviços? Contrate a gente pelo nosso site"
-            link="https://www.instagram.com/hypnos.copy/"
+            title="Virtus Copy"
+            description="Visite a minha empresa, a Virtus Copy. Se interessou por nossos serviços? Contrate a gente pelo nosso site"
+            link="https://www.instagram.com/virtus.copy/"
             delay={0.4}
           />
           
