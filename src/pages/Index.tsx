@@ -1,4 +1,5 @@
 
+import { motion } from "framer-motion";
 import WelcomeSection from "@/components/WelcomeSection";
 import SocialCard from "@/components/SocialCard";
 import BooksDialog from "@/components/BooksDialog";
