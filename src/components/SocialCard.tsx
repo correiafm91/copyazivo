@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Youtube, Instagram, Mail } from "lucide-react";
 
@@ -12,9 +11,9 @@ interface SocialCardProps {
 
 const SocialCard = ({ type, title, description, link, delay = 0 }: SocialCardProps) => {
   const icons = {
-    youtube: <Youtube className="w-8 h-8" color="#ea384c" />,
-    instagram: <Instagram className="w-8 h-8" stroke="#e1306c" />,
-    email: <Mail className="w-8 h-8" color="#4285F4" />,
+    youtube: <Youtube className="w-8 h-8 text-accent" />,
+    instagram: <Instagram className="w-8 h-8 text-accent" />,
+    email: <Mail className="w-8 h-8 text-accent" />,
   };
 
   return (
