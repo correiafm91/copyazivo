@@ -11,17 +11,17 @@ interface BookLink {
 const books: BookLink[] = [
   {
     id: 1,
-    title: "Como criar uma mente",
+    title: "Copywriting: A habilidade oculta",
     url: "https://drive.google.com/file/d/1eE8sCHp5W_M2tUgpkP4_LMAYJCbDq5ng/view?usp=drive_link"
   },
   {
     id: 2,
-    title: "Como convencer alguém em 90 segundos",
+    title: "Decifrando a mente",
     url: "https://drive.google.com/file/d/1ar0PA-1vyxAsFg8lV9saB8F2cm0Z1GX8/view?usp=drive_link"
   },
   {
     id: 3,
-    title: "Rápido e Devagar - Duas formas de pensar",
+    title: "Lógica de Aristóteles",
     url: "https://drive.google.com/file/d/1HXaWVWHJNIRgLv0uxL5BmDo0CfWV6IYz/view?usp=drive_link"
   }
 ];
@@ -32,7 +32,7 @@ const BooksDialog = () => {
       <DialogTrigger asChild>
         <div className="card-gradient p-6 rounded-xl hover:scale-105 transition-transform duration-300 border border-white/10 cursor-pointer">
           <div className="flex items-center gap-4 mb-4">
-            <Book className="w-8 h-8 text-[#7E69AB]" />
+            <Book className="w-8 h-8 text-[#ea384c]" />
             <h3 className="text-xl font-semibold text-white">Livros Gratuitos</h3>
           </div>
           <p className="text-gray-300 text-sm md:text-base">Descubra conteúdos interessantes com leitura</p>
